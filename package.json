@@ -1,0 +1,27 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start-server": "http-server",
+    "start-open": "open-cli http://localhost:8080/index.html"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "http-server": "^14.1.1",
+    "jest": "^29.5.0",
+    "open-cli": "^7.2.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  }
+  
+}
